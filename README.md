@@ -4,9 +4,9 @@ In Progress
 	Front End <br />
 	/resources/views/home.blade.php <br />
 	Back End <br />
-	/database/migrations/2017_06_15_182441_create_posts_table.php
+	/database/migrations/2017_06_15_182441_create_posts_table.php <br/>
 	/database/migrations/2017_06_20_181757_create_comments_table.php <br/>
-	/database/migrations/2017_06_20_182254_create_posts_comments_table.php
+	/database/migrations/2017_06_20_182254_create_posts_comments_table.php <br/>
 ●	Upon user log in, a user lands on the main forum page and sees all the posts. <br />
 	Front End <br />
 	/resources/views/home.blade.php <br />
