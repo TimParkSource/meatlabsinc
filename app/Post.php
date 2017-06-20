@@ -14,12 +14,12 @@ class Post extends Model {
     // DEFINE RELATIONSHIPS --------------------------------------------------
     // each post has many comments
     public function comments() {
-        return $this->hasMany('Comment');
+        return $this->hasMany('App\Comment');
     }
 
     // each comment has one user
     public function users() {
-        return $this->hasOne('User');
+        return $this->belongsTo('App\User');
     }
 
 }

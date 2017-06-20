@@ -14,12 +14,12 @@ class Comment extends Model {
     // DEFINE RELATIONSHIPS --------------------------------------------------
     /// each comment has one post
     public function posts() {
-        return $this->hasOne('Post'); // this matches the Eloquent model
+        return $this->belongsTo('App\Post'); // this matches the Eloquent model
     }
 
     // each comment has one user
     public function users() {
-        return $this->hasOne('User');
+        return $this->belongsTo('App\User');
     }
 
 }

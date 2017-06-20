@@ -14,7 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::post('/editprofile', 'EditprofileController@index')->name('editprofile');
 Route::get('/editprofile', 'EditprofileController@index')->name('editprofile');
+Route::resource('posts', 'PostController');
+Route::resource('comments', 'CommentController');
 
 Auth::routes();
 

@@ -6,17 +6,25 @@ In Progress
 	Back End <br />
 	/database/migrations/2017_06_15_182441_create_posts_table.php <br/>
 	/database/migrations/2017_06_20_181757_create_comments_table.php <br/>
-	/database/migrations/2017_06_20_182254_create_posts_comments_table.php <br/>
+	/app/Comment.php <br />
+	/app/Post.php <br />
+	/app/User.php <br />
 ●	Upon user log in, a user lands on the main forum page and sees all the posts. <br />
 	Front End <br />
 	/resources/views/home.blade.php <br />
+	Edit Home to display all posts and comments. Add buttons or links for create, edit post/comments <br />
+	Create Blade for post and comments. <br />
 	Back End <br />
 	/database/migrations/2017_06_15_182441_create_posts_table.php <br />
+	/app/Http/Controllers/PostController.php <br />
+	/app/Http/Controllers/CommentController.php <br />
 ●	User may edit their biography and user name only. <br />
 	Front end <br />
 	/resources/views/layouts/app.blade.php <br />
 	Back End <br />
 	/database/migrations/2014_10_12_000000_create_users_table.php <br />
+	/app/Http/Controllers/EditprofileController.php <br />
+	The EditProfileController is doing nothing? Will get back to this later. <br />
 
 Done
 
